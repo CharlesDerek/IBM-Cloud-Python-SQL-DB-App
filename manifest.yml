@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: 0daonlinecourse.us-south.cf.appdomain.cloud
+      - route: mrgi-final-ibm-course-8.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: 0daonlinecourse.us-south.cf.appdomain.cloud/static
+      - route: mrgi-final-ibm-course-8.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
