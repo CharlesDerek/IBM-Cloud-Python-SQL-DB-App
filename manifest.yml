@@ -1,11 +1,11 @@
   applications:
-  - name: onlinecourse
+  - name: bn-100-onlinecourse
     routes:
-      - route: mrgi-final-ibm-course-8.us-south.cf.appdomain.cloud
+      - route: bn-100-onlinecourse-reliable-giraffe-ti.mybluemix.net/
     memory: 128M
     buildpack: python_buildpack
-  - name: onlinecourse-nginx
+  - name: bn-100-onlinecourse-nginx
     routes:
-      - route: mrgi-final-ibm-course-8.us-south.cf.appdomain.cloud/static
+      - route: bn-100-onlinecourse-reliable-giraffe-ti.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
